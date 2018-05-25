@@ -1,25 +1,18 @@
 class Dog
   def name
+    @name
   end
 
-  def name=
+  def name=(dog)
+    @name = dog
   end
 
   def breed
+    @breed
   end
 
-  def breed=
-  end
-
-  def bark
-    puts "Woof!"
-  end
-
-  def sit
-    puts "The Dog is sitting"
+  def breed=(breed)
+    @breed = breed
   end
 end
 
-fido = Dog.new
-snoopy = Dog.new
-lassie = Dog.new
